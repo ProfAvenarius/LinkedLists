@@ -31,17 +31,22 @@ public class Main {
         printList(test);
 
         test.deleteNodeByValue(777);
+        printList(test);
 
         test.deleteNodeByValue(666);
+        printList(test);
 
         test.deleteNodeByValue(42);
+        printList(test);
 
         test.deleteNodeByLocation(4);
+        printList(test);
 
         test.deleteNodeByLocation(0);
+        printList(test);
 
         test.deleteNodeByLocation(23);
-
+        printList(test);
 
     }
 
